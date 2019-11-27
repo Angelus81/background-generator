@@ -23,3 +23,9 @@ Press ^C at any time to quit.
 
 Installing packages using -g "globally"
 npm install -g live-server
+
+Live Server creates a server to view html
+live-server
+
+Installing packages locally
+npm install -g live-server

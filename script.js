@@ -1,6 +1,6 @@
 var css = document.querySelector("h3");
-var colour1 = document.querySelector(".colour1");
-var colour2 = document.querySelector(".colour2");
+var colour1 = document.querySelector(".color1");
+var colour2 = document.querySelector(".color2");
 var body = document.getElementById("gradient");
 
 
@@ -16,5 +16,5 @@ function setGradient () {
 	css.textContent = body.style.background + ";";
 }
 
-colour1.addEventListener("input", setGradient);
-colour2.addEventListener("input", setGradient);
+color1.addEventListener("input", setGradient);
+color2.addEventListener("input", setGradient);

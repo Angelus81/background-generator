@@ -29,3 +29,17 @@ live-server
 
 Installing packages locally:
 npm install lodash 
+
+****INCORRECT*****
+Importing Modules into Sublime in script.js:
+import { without } from 'lodash';
+console.log(without); 
+//error is displayed unknown token 
+
+install package browserify:
+npm install -g browserify
+
+****CORRECT*****
+After browserify install type in browserify script.js > bundle.js
+bundle.js is created with all dependencies (lodash), then changed in html script > bundle.
+

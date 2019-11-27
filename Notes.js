@@ -55,3 +55,14 @@ browserify script.js > bundle.js
 // long as there is a package.json file it can be restorted by:
 npm install
 
+Quicker way to update bundle.js and run live in package.json replace defaults:
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+Changed to:
+"scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+Then run in Gitbash:
+npm run build
+
